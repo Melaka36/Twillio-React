@@ -13,7 +13,7 @@ function SkilCard(props){
     <div class="media">
       <div class="media-left">
         <figure class="image is-48x48">
-          <img src={props.imgLink} alt="Placeholder image"/>
+          <img src={props.imgLink} alt="Placeholderimage"/>
         </figure>
       </div>
       <div class="media-content">
@@ -24,8 +24,8 @@ function SkilCard(props){
 
     <div class="content">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-      <a href="#">#css</a> <a href="#">#responsive</a>
+      Phasellus nec iaculis mauris. <a href="/">@bulmaio</a>.
+      <a href="/">#css</a> <a href="/">#responsive</a>
       <br/>
       <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
     </div>
