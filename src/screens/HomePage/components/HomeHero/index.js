@@ -5,7 +5,7 @@ function HomeHero(){
     return (
       <section>
         <div className="columns">
-          <div className="hero-text-col column is-6">
+          <div className=" column is-6 pl-6 pt-6">
             <h1 className="title is-6">My name is Melaka</h1>
             <h1 className="title is-4">
               is simply dummy text of the printing and typesetting industry.
@@ -28,7 +28,7 @@ function HomeHero(){
           <div className="column is-6 has-text-centered">
             <img
               className="HeroImg"
-              src="https://www.pngall.com/wp-content/uploads/13/Content-Delivery-Network-CDN-PNG-Image.png"
+              src="https://img.freepik.com/free-photo/confident-sassy-young-bearded-gay-man-pink-t-shirt-shirt-hold-hand-waist-pointing-upper-left-corner-smiling-suggest-friends-visit-party-nearby_176420-37053.jpg?t=st=1658517601~exp=1658518201~hmac=94c11e84138bfec025ad4997162ba7f6bb281881010aea7ce165f75b934d77cb&w=900"
               alt="sd"
             ></img>
           </div>

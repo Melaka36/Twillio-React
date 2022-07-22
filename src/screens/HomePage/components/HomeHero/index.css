@@ -1,11 +1,11 @@
 .HeroImg{
     width: 90%;
 }
-.hero-herotextcol-col{
+/* .hero-herotextcol-col{
     padding-left: 3rem;
     align-self: center !important;
     
-}
+} */
 .is-pink{
     background-color: #ea4c89;
     color: white;
