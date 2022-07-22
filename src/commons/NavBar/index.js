@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./index.css";
 
 function NavBar() {
@@ -11,6 +11,7 @@ function NavBar() {
             src="https://bulma.io/images/bulma-logo.png"
             width="112"
             height="28"
+            alt="s"
           />
         </a>
 
@@ -20,6 +21,7 @@ function NavBar() {
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarBasicExample"
+          href="/"
         >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -29,22 +31,22 @@ function NavBar() {
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item">Home</a>
+          <a class="navbar-item" href="/">Home</a>
 
-          <a class="navbar-item">About</a>
+          <a class="navbar-item" href="/about">About</a>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">More</a>
+            <a class="navbar-link" href="/">More</a>
 
             <div class="navbar-dropdown">
-              <a class="navbar-item">About</a>
-              <a class="navbar-item">Jobs</a>
-              <a class="navbar-item">Contact</a>
+              <a class="navbar-item" href="/">About</a>
+              <a class="navbar-item"  href="/">Jobs</a>
+              <a class="navbar-item"  href="/">Contact</a>
               <hr class="navbar-divider" />
-              <a class="navbar-item">Report an issue</a>
+              <a class="navbar-item"  href="/">Report an issue</a>
             </div>
-          </div>
-        </div>
+          </div> 
+        </div> 
 
         <div class="navbar-end">
           <div class="navbar-item">
